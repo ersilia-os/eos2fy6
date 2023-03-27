@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos2fy6",
+    "Slug": "s2dv-hepg2-toxicity",
+    "Status": "In progress",
+    "Title": "S2DV HepG2 toxicity",
+    "Description": "The model adopts a natural language processing technique to analyze compound SMILES strings, enabling an accurate representation of the relationship between compounds and their substructures. This technique helps the model predict liver toxicity, verified by wet-lab experiments.",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,11 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "ChEMBL",
+        "Toxicity"
+    ],
+    "Publication": "https://pubmed.ncbi.nlm.nih.gov/35062019/",
+    "Source Code": "https://github.com/NTU-MedAI/S2DV",
+    "License": "Apache-2.0 license"
 }

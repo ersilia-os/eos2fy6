@@ -1,0 +1,1 @@
+from s2dv_.s2dv_modular import get_ECFP, mol2alt_sentence, get_sentence_vec, vec_predict

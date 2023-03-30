@@ -52,6 +52,6 @@ def vec_predict(vec,models,ML_model):
         if model_name == ML_model:
            # Y_predict = model.predict(vec.reshape(1, -1)) # returns the actual label
             Y_predict_p = model.predict_proba(vec.reshape(1, -1))[:, 1] # returns the probability
-
+   
     # return Y_predict, Y_predict_p   # To return both actual prediction and probability
     return Y_predict_p

@@ -1,6 +1,6 @@
 # S2DV HepG2 toxicity
 
-The model adopts a natural language processing technique to analyze compound SMILES strings, enabling an accurate representation of the relationship between compounds and their substructures. This technique helps the model predict liver toxicity, verified by wet-lab experiments.
+The model uses Word2Vec, a natural language processing technique to represent SMILES strings. The model was trained on over <2000 small molecules with associated experimental HepG2 cytotoxicity data (IC50) to classify compounds as HepG2 toxic (IC50 <= 30 uM) or non-toxic. Data was gathered from the public repository ChEMBL.
 
 ## Identifiers
 
@@ -15,7 +15,7 @@ The model adopts a natural language processing technique to analyze compound SMI
 * Output: `Experimental value`
 * Output Type: `Float`
 * Output Shape: `Single`
-* Interpretation: This model receives smiles as input and returns as output the probability value of liver toxicity of potential compounds. 
+* Interpretation: Probability of HepG2 Toxicity (IC50 < 30 uM)
 
 ## References
 

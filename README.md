@@ -23,6 +23,11 @@ The model uses Word2Vec, a natural language processing technique to represent SM
 * [Source Code](https://github.com/NTU-MedAI/S2DV)
 * Ersilia contributor: [emmakodes](https://github.com/emmakodes)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos2fy6)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2fy6.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos2fy6) (AMD64, ARM64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://pubmed.ncbi.nlm.nih.gov/35062019/) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).

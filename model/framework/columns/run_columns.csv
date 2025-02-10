@@ -1,0 +1,2 @@
+name,type,direction,description
+HepG2_proba1,float,high,Probability of citotoxicity assessed in HepG2 cells

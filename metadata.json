@@ -3,21 +3,18 @@
     "Slug": "s2dv-hepg2-toxicity",
     "Status": "Ready",
     "Title": "S2DV HepG2 toxicity",
-    "Description": "The model uses Word2Vec, a natural language processing technique to represent SMILES strings. The model was trained on over <2000 small molecules with associated experimental HepG2 cytotoxicity data (IC50) to classify compounds as HepG2 toxic (IC50 <= 30 uM) or non-toxic. Data was gathered from the public repository ChEMBL.\n",
+    "Description": "The model uses Word2Vec, a natural language processing technique to represent SMILES strings. The model was trained on over <2000 small molecules with associated experimental HepG2 cytotoxicity data (IC50) to classify compounds as HepG2 toxic (IC50 <= 30 uM) or non-toxic. Data was gathered from the public repository ChEMBL.",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Annotation",
-    "Subtask": "Activity prediction",
-    "Biomedical Area": [
-        "ADMET"
-    ],
-    "Target Organism": [
-        "Homo sapiens"
-    ],
     "Output": [
         "Probability"
     ],
@@ -29,20 +26,25 @@
         "IC50",
         "Toxicity"
     ],
-    "Publication": "https://pubmed.ncbi.nlm.nih.gov/35062019/",
+    "Biomedical Area": [
+        "ADMET"
+    ],
+    "Target Organism": [
+        "Homo sapiens"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2022,
+    "Publication": "https://pubmed.ncbi.nlm.nih.gov/35062019/",
     "Source Code": "https://github.com/NTU-MedAI/S2DV",
     "License": "Apache-2.0",
     "Contributor": "emmakodes",
     "Incorporation Date": "2023-03-27",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2fy6.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2fy6",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
     ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2fy6.zip",
-    "Deployment": [
-        "Local"
-    ]
+    "Model Size": 43.0,
+    "Environment Size": 1135.0
 }

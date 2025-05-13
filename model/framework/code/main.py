@@ -48,7 +48,7 @@ def main(smiles):
 
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(["HepG2_proba1"])  # header
+    writer.writerow(["hepg2_proba1"])  # header
 
 with open(input_file, "r") as f:
     reader = csv.reader(f)

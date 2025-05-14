@@ -41,7 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `43`
 - **Environment Size (Mb):** `1060`
+- **Image Size (Mb):** `1160.02`
 
+**Computational Performance (seconds):**
+- 10 inputs: `30.53`
+- 100 inputs: `26.11`
+- 10000 inputs: `566.28`
 
 ### References
 - **Source Code**: [https://github.com/NTU-MedAI/S2DV](https://github.com/NTU-MedAI/S2DV)

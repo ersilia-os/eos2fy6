@@ -4,6 +4,7 @@ The model uses Word2Vec, a natural language processing technique to represent SM
 
 This model was incorporated on 2023-03-27.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos2fy6`

@@ -2,8 +2,7 @@
 
 The model uses Word2Vec, a natural language processing technique to represent SMILES strings. The model was trained on over <2000 small molecules with associated experimental HepG2 cytotoxicity data (IC50) to classify compounds as HepG2 toxic (IC50 <= 30 uM) or non-toxic. Data was gathered from the public repository ChEMBL.
 
-This model was incorporated on 2023-03-27.
-
+This model was incorporated on 2023-03-27.Last packaged on 2025-10-10.
 
 ## Information
 ### Identifiers
@@ -42,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `43`
 - **Environment Size (Mb):** `1108`
-- **Image Size (Mb):** `1160.02`
+- **Image Size (Mb):** `1195.13`
 
 **Computational Performance (seconds):**
-- 10 inputs: `30.53`
-- 100 inputs: `26.11`
-- 10000 inputs: `566.28`
+- 10 inputs: `27.49`
+- 100 inputs: `19.18`
+- 10000 inputs: `152.94`
 
 ### References
 - **Source Code**: [https://github.com/NTU-MedAI/S2DV](https://github.com/NTU-MedAI/S2DV)

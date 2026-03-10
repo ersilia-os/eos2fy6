@@ -28,11 +28,11 @@ def main(smiles):
         ECFP = get_ECFP(mol, 1)
         
         HepG2_model = pkl.load(
-            open(os.path.join(checkpoints_dir, 'HepG2.ECFP.models.pkl'), 'rb+'))
+            open(os.path.join(checkpoints_dir, 'HepG2.ECFP.models.pkl'), 'rb'))
         HepG2_token = pkl.load(
-            open(os.path.join(checkpoints_dir, 'HepG2_token.pkl'), 'rb+'))
+            open(os.path.join(checkpoints_dir, 'HepG2_token.pkl'), 'rb'))
         HepG2_emb = pkl.load(
-            open(os.path.join(checkpoints_dir, 'HepG2_emb.pkl'), 'rb+'))
+            open(os.path.join(checkpoints_dir, 'HepG2_emb.pkl'), 'rb'))
 
         if (np.isfinite(get_sentence_vec(ECFP, HepG2_emb, HepG2_token)).any()): 
             HepG2_vec = get_sentence_vec(ECFP, HepG2_emb, HepG2_token)     

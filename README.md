@@ -2,7 +2,7 @@
 
 The model uses Word2Vec, a natural language processing technique to represent SMILES strings. The model was trained on over <2000 small molecules with associated experimental HepG2 cytotoxicity data (IC50) to classify compounds as HepG2 toxic (IC50 <= 30 uM) or non-toxic. Data was gathered from the public repository ChEMBL.
 
-This model was incorporated on 2023-03-27.Last packaged on 2025-10-10.
+This model was incorporated on 2023-03-27.Last packaged on 2026-03-11.
 
 ## Information
 ### Identifiers
@@ -35,18 +35,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2fy6](https://hub.docker.com/r/ersiliaos/eos2fy6)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2fy6.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2fy6.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `43`
 - **Environment Size (Mb):** `1132`
-- **Image Size (Mb):** `1195.13`
+- **Image Size (Mb):** `1202.4`
 
 **Computational Performance (seconds):**
-- 10 inputs: `27.49`
-- 100 inputs: `19.18`
-- 10000 inputs: `152.94`
+- 10 inputs: `28.5`
+- 100 inputs: `20.68`
+- 10000 inputs: `173.19`
 
 ### References
 - **Source Code**: [https://github.com/NTU-MedAI/S2DV](https://github.com/NTU-MedAI/S2DV)

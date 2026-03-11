@@ -39,20 +39,17 @@
     "License": "Apache-2.0",
     "Contributor": "emmakodes",
     "Incorporation Date": "2023-03-27",
-    "Last Packaging Date": "2025-10-10",
+    "Last Packaging Date": "2026-03-11",
     "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2fy6.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2fy6",
-    "Docker Architecture": [
-        "AMD64",
-        "ARM64"
-    ],
+    "Docker Architecture": "AMD64",
     "Model Size": 43.0,
     "Environment Size": 1132.0,
-    "Image Size": 1195.13,
-    "Computational Performance 1": 27.49,
-    "Computational Performance 2": 17.38,
-    "Computational Performance 3": 19.18,
-    "Computational Performance 4": 43.1,
-    "Computational Performance 5": 152.94
+    "Image Size": 1202.4,
+    "Computational Performance 1": 28.5,
+    "Computational Performance 2": 18.54,
+    "Computational Performance 3": 20.68,
+    "Computational Performance 4": 48.39,
+    "Computational Performance 5": 173.19
 }

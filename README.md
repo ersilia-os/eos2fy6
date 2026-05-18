@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/NTU-MedAI/S2DV](https://github.com/NTU-MedAI/S2DV)
-- **Publication**: [https://pubmed.ncbi.nlm.nih.gov/35062019/](https://pubmed.ncbi.nlm.nih.gov/35062019/)
+- **Publication**: [https://doi.org/10.1093/bib/bbab593](https://doi.org/10.1093/bib/bbab593)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2022`
 - **Ersilia Contributor:** [emmakodes](https://github.com/emmakodes)

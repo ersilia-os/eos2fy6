@@ -1,6 +1,6 @@
 # S2DV HepG2 toxicity
 
-The model uses Word2Vec, a natural language processing technique to represent SMILES strings. The model was trained on over <2000 small molecules with associated experimental HepG2 cytotoxicity data (IC50) to classify compounds as HepG2 toxic (IC50 <= 30 uM) or non-toxic. Data was gathered from the public repository ChEMBL.
+Flags compounds likely to be cytotoxic to HepG2 liver carcinoma cells, a first-pass safety filter when triaging antiviral candidates. Shao and colleagues borrowed word2vec from natural language processing, treating SMILES substrings as tokens so that a compound and its substructures share an embedding space, and trained downstream classifiers on the resulting drug vectors. Fewer than 2,000 compounds with measured HepG2 activity supported this endpoint, so predictions are indicative rather than quantitative.
 
 This model was incorporated on 2023-03-27.Last packaged on 2026-03-11.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-03-27.Last packaged on 2026-03-11.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of HepG2 Toxicity (IC50 < 30 uM)
+- **Interpretation:** Probability of HepG2 cytotoxicity, with actives defined at an IC50 below 30 uM.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |

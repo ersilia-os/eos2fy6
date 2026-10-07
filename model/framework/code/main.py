@@ -21,8 +21,10 @@ checkpoints_dir = os.path.abspath(os.path.join(root, "..", "..", "checkpoints"))
 
 
 def main(smiles):   
-    mol = Chem.MolFromSmiles(smiles)  
-    
+    mol = Chem.MolFromSmiles(smiles)
+    if mol is None:
+        return [""]
+
     if len(get_ECFP(mol, 1)) != 0:
         # return ECFP
         ECFP = get_ECFP(mol, 1)

@@ -1,6 +1,6 @@
 # S2DV HepG2 toxicity
 
-Flags compounds likely to be cytotoxic to HepG2 liver carcinoma cells, a first-pass safety filter when triaging antiviral candidates. Shao and colleagues borrowed word2vec from natural language processing, treating SMILES substrings as tokens so that a compound and its substructures share an embedding space, and trained downstream classifiers on the resulting drug vectors. Fewer than 2,000 compounds with measured HepG2 activity supported this endpoint, so predictions are indicative rather than quantitative.
+Flags compounds likely to be cytotoxic to HepG2 liver carcinoma cells, a first-pass safety filter when triaging antiviral candidates. Shao and colleagues borrowed word2vec from natural language processing, treating ECFP substructure identifiers as tokens so that a compound and its fragments share an embedding space, then fitted a support vector classifier on the resulting drug vectors. Training drew on 2,270 ChEMBL records with measured CC50 values, and the authors also tested the classifier on compounds they assayed themselves in HepG2 2.2.15 cells.
 
 This model was incorporated on 2023-03-27.Last packaged on 2026-03-11.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-03-27.Last packaged on 2026-03-11.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of HepG2 cytotoxicity, with actives defined at an IC50 below 30 uM.
+- **Interpretation:** Probability of HepG2 cytotoxicity, with actives defined at a CC50 below 30 uM.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |

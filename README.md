@@ -2,7 +2,7 @@
 
 Flags compounds likely to be cytotoxic to HepG2 liver carcinoma cells, a first-pass safety filter when triaging antiviral candidates. Shao and colleagues borrowed word2vec from natural language processing, treating ECFP substructure identifiers as tokens so that a compound and its fragments share an embedding space, then fitted a support vector classifier on the resulting drug vectors. Training drew on 2,270 ChEMBL records with measured CC50 values, and the authors also tested the classifier on compounds they assayed themselves in HepG2 2.2.15 cells.
 
-This model was incorporated on 2023-03-27.Last packaged on 2026-03-11.
+This model was incorporated on 2023-03-27.Last packaged on 2026-10-07.
 
 ## Information
 ### Identifiers
@@ -35,18 +35,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2fy6](https://hub.docker.com/r/ersiliaos/eos2fy6)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2fy6.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2fy6.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `43`
 - **Environment Size (Mb):** `1132`
-- **Image Size (Mb):** `1202.4`
+- **Image Size (Mb):** `1233.96`
 
 **Computational Performance (seconds):**
-- 10 inputs: `28.5`
-- 100 inputs: `20.68`
-- 10000 inputs: `173.19`
+- 10 inputs: `23.88`
+- 100 inputs: `15.69`
+- 10000 inputs: `158.1`
 
 ### References
 - **Source Code**: [https://github.com/NTU-MedAI/S2DV](https://github.com/NTU-MedAI/S2DV)

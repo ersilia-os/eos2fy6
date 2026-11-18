@@ -2,7 +2,8 @@
 
 Flags compounds likely to be cytotoxic to HepG2 liver carcinoma cells, a first-pass safety filter when triaging antiviral candidates. Shao and colleagues borrowed word2vec from natural language processing, treating ECFP substructure identifiers as tokens so that a compound and its fragments share an embedding space, then fitted a support vector classifier on the resulting drug vectors. Training drew on 2,270 ChEMBL records with measured CC50 values, and the authors also tested the classifier on compounds they assayed themselves in HepG2 2.2.15 cells.
 
-This model was incorporated on 2023-03-27.Last packaged on 2026-10-07.
+This model was incorporated on 2023-03-27.
+Last packaged on 2026-10-07.
 
 ## Information
 ### Identifiers
@@ -37,6 +38,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2fy6](https://hub.docker.com/r/ersiliaos/eos2fy6)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2fy6.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2fy6.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos2fy6_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos2fy6_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `43`
